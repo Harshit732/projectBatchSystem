@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    margin: 5px 0;
+    height: 60px;
+    position: relative;
+
+   
+
+    
+}
+.navbar-brand{
+    color: black !important;
+    font-weight: bolder;
+    margin: 0 5px;
+}
+
+.navbar-nav .nav-link {
+    color: black !important;
+
+}
+.nav-link:hover{
+    color: orangered !important;
+}
+
+#navbar-options{
+    margin: 0 50px;
+}
+#download-btn{
+    
+    right: 85px;
+    position: absolute;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    padding: 5px 20px;
+    height: fit-content;
+
+    
+}
+.homepage{
+    display: flex;
+    margin-top: 25px;
+}
+.section1{
+    margin-top: 85px;
+    display: flex;
+    flex-direction: column;
+    width: 618px;
+    gap: 20px;
+    position: relative;
+}
+.text1{
+    font-size: 64px;
+    font-weight: bold;
+    font-family: Inter;
+    padding: 5px;
+    line-height: 64px;
+}
+.get-started{
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    padding: 5px 20px;
+    
+
+}
+.star2{
+    position: absolute;
+    top: 385px;
+    left: 75px;
+}
+
+
+.ellipse{
+    
+    position: relative;
+    
+   
+}
+.star1{
+    position: absolute;
+    top: -40px;
+    left: 600px;
+}
+.star3{
+    position: absolute;
+    top: 645px;
+    right: 530px;
+}
+.ellipse-color{
+    width: 284px; 
+    height: 154px;
+    position: absolute;    
+    filter: blur(2.4rem);
+    border-radius: 50%;    
+    transform-origin: center;
+    z-index: -1;
+   
+
+}
+.orange1{
+    background-color: #FF5555;
+    top: -30px;
+    left: 280px;
+}
+.yellow1{
+    background-color: #FDE598;
+    top: 5px;
+    left: 280px;
+    z-index: -9999;
+
+}
+.orange2{
+    background-color: #FF5555;
+    transform: rotate(-45deg);
+    top: 485px;
+    left: 185px;
+
+}
+
+
+.ellipse1 {
+    width: 383.17px; 
+    height: 551.56px;
+    position: absolute;
+    top: -20px;
+    left: 255px;
+    border: 1px solid black;
+    border-radius: 50%;
+    transform: rotate(-45deg);
+    transform-origin: center;
+    z-index: -1;
+   
+
+}
+
+.ellipse2 {
+    width: 383.17px; 
+    height: 551.56px; 
+    position: absolute;
+    top: 6px;
+    left: 234px;
+    border: 1px solid black;
+    border-radius: 50%;
+    transform: rotate(-45deg);
+    transform-origin: center;
+    z-index: -1;
+    
+
+}
+
+.ellipse3 {
+    width: 383.17px; 
+    height: 551.56px; 
+    position: absolute;
+    top: 40px;
+    left: 199px;
+    border: 1px solid black;
+    border-radius: 50%;
+    transform: rotate(-45deg);
+    transform-origin: center;
+    z-index: -1;
+    
+
+}
+
+.ip1{
+    position: absolute;
+    top: -77px;
+    left: 0px;
+    z-index: 3;
+
+
+}
+.ip2{
+    position: absolute;
+    left: 121px;
+    top: 2px;
+    z-index: 2;
+}
+.ip3{
+    position: absolute;
+    left: 243px;
+    top: 60px;
+    z-index: 1;
+
+}
+
+@media screen and (max-width:600)
+ {
+    .homepage{
+        display: flex;
+        flex-direction: column;
+    }
+}
